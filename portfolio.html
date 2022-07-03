@@ -37,11 +37,17 @@
         <ul class="contacts-list list">
           <li class="contacts-item">
             <a class="contacts-link link hover-color" href="mailto:info@devstudio.com"
+              ><svg class="contacts-icon hover-color" width="16px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <a class="contacts-link link hover-color" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts-link link hover-color" href="tel:+380961111111"
+              ><svg class="contacts-icon" width="10px" height="16px">
+                <use href="./images/symbol-defs.svg#icon-phone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -71,7 +77,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img1.jpg"
+                  src="./images/projects/img1.jpg"
                   width="370"
                   height="294"
                   alt="Веб-сайт Технокряк"
@@ -86,7 +92,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img2.jpg"
+                  src="./images/projects/img2.jpg"
                   width="370"
                   height="294"
                   alt="Дизайн Постер New Orlean vs Golden Star"
@@ -101,7 +107,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img3.jpg"
+                  src="./images/projects/img3.jpg"
                   width="370"
                   height="294"
                   alt="Приложение Ресторан Seafood"
@@ -116,7 +122,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img4.jpg"
+                  src="./images/projects/img4.jpg"
                   width="370"
                   height="294"
                   alt="Маркетинг Проект Prime"
@@ -131,7 +137,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img5.jpg"
+                  src="./images/projects/img5.jpg"
                   width="370"
                   height="294"
                   alt="Приложение Проект Boxes"
@@ -146,7 +152,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img6.jpg"
+                  src="./images/projects/img6.jpg"
                   width="370"
                   height="294"
                   alt="Веб-сайт Inspiration has no Borders"
@@ -161,7 +167,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img7.jpg"
+                  src="./images/projects/img7.jpg"
                   width="370"
                   height="294"
                   alt="Дизайн Издание Limited Edition"
@@ -176,7 +182,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img8.jpg"
+                  src="./images/projects/img8.jpg"
                   width="370"
                   height="294"
                   alt="Маркетинг Проект LAB"
@@ -191,7 +197,7 @@
               <a class="link projects-link" href="/">
                 <img
                   class="projects-img"
-                  src="./images/img9.jpg"
+                  src="./images/projects/img9.jpg"
                   width="370"
                   height="294"
                   alt="Приложение Growing Business"
@@ -209,31 +215,62 @@
 
     <footer class="footer">
       <div class="container footer-container">
-        <a class="logo link" href="./index.html"> Web<span class="logo-white">Studio</span></a>
-        <address>
-          <ul class="address-list list">
-            <li class="address-item">
-              <a
-                class="address-link address-google link hover-color"
-                href="https://goo.gl/maps/GdrmN5GAiVvAwd8F9"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                г. Киев, пр-т Леси Украинки, 26</a
-              >
+        <div class="container-address">
+          <a class="logo link" href="./index.html"> Web<span class="logo-white">Studio</span></a>
+          <address>
+            <ul class="address-list list">
+              <li class="address-item">
+                <a
+                  class="address-link address-google link hover-color"
+                  href="https://goo.gl/maps/GdrmN5GAiVvAwd8F9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link link hover-color" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link link hover-color" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social">
+          <h3 class="social-title">присоединяйтесь</h3>
+          <ul class="social-nav list card-set">
+            <li class="social-item">
+              <a class="social-link link" href="http://" target="_blank" rel="noopener noreferrer"
+                ><svg class="team-icon" width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use></svg
+              ></a>
             </li>
-            <li class="address-item">
-              <a class="address-link link hover-color" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="social-item">
+              <a class="social-link link" href="http://" target="_blank" rel="noopener noreferrer"
+                ><svg class="team-icon" width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
+              ></a>
             </li>
-            <li class="address-item">
-              <a class="address-link link hover-color" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="social-item">
+              <a class="social-link link" href="http://" target="_blank" rel="noopener noreferrer"
+                ><svg class="team-icon" width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="social-item">
+              <a class="social-link link" href="http://" target="_blank" rel="noopener noreferrer"
+                ><svg class="team-icon" width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
